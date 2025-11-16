@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors Game
 
 A simple and interactive **Rock, Paper, Scissors** game built using HTML, CSS, and Javascript. The user type their choice, the computer generates a random one, and the game determines the winner. 
-Play now: https://main.d3p2i3dzubtud.amplifyapp.com/
+- -> Play now: https://main.d3p2i3dzubtud.amplifyapp.com/
 
 ![Game Image](./images/screenshot.png)
 
@@ -24,4 +24,4 @@ Play now: https://main.d3p2i3dzubtud.amplifyapp.com/
 2. open index.html 
 3. Start playing
 
-Play without installing: https://main.d3p2i3dzubtud.amplifyapp.com/
+- -> Play without installing: https://main.d3p2i3dzubtud.amplifyapp.com/
