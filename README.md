@@ -2,6 +2,9 @@
 
 A simple and interactive **Rock, Paper, Scissors** game built using HTML, CSS, and Javascript. The user type their choice, the computer generates a random one, and the game determines the winner. 
 
+![Game Image](./images/screenshot.png)
+
+
 ---
 
 ## Features
