@@ -1,0 +1,167 @@
+html, body {
+    background-color: #ffde59;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Initial Section - User Score, Reset, and Computer Score Section */
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.user-score {
+    display: block;
+    color: #38b6ff;
+}
+
+#user-point {
+    font-size: 30px;
+}
+
+.duck-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    position: relative;
+}
+
+/* Positioning the duck image above the reset button */
+.duck-image img.duck {
+    position: relative;
+    top: 16px;
+    z-index: 1;
+}
+
+.reset-btn {
+    font-family: "Rubik 80s Fade", system-ui;
+    display: block;
+    background-color: #38b6ff;
+    color: #FFFF;
+    border: none;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+
+
+.computer-score {
+    display: block;
+    color: #ff751f;
+}
+
+#computer-point {
+    font-size: 30px;
+}
+
+
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* Central Section - Options the user can choose to play (Rock, Paper, Scissors) */
+.user-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    margin-top: 80px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Final Section */
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+
+label {
+    font-size: 25px;
+    margin: 15px;
+}
+
+input {
+    font-family: "Rubik 80s Fade", system-ui;
+    background-color: #38b6ff;
+    color: #FFFF;
+    border: 2px solid #FFFF;
+    height: 38px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+#play-btn {
+    background-color: red;
+    border: 2px solid #FFFF;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user-choice {
+    margin-bottom: 15px;
+}
+
+.user-choice, 
+.computer-choice {
+    display: block;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#computer-choice {
+    color: #ff751f;
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+input::placeholder {
+    color: #FFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 30px;
+}

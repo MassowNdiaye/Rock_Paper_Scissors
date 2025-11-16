@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <!-- Initial Section -->
+    <div class="score-container">
+        <div class="user-score"> 
+            <h1> Your score</h1>
+            <span id="user-point">0</span>
+        </div>
+
+        <div class="duck-image">
+            <img class="duck" src="/images/duck_image.png" alt="Duck Image" width="120px">
+            <button id="reset-btn" class="reset-btn" type="button">RESET</button>
+        </div>
+
+        <div class="computer-score">
+            <h1> Computer score</h1>
+            <span id="computer-point">0</span>
+        </div>
+    </div>
+    <!-- Central Section -->
+    <div class="user-options">
+        <div class="option">
+            <h2>"ROCK"</h2>
+            <img src="/images/rock.png" alt="Rock Image" width="130px">
+        </div>
+        <div class="option">
+            <h2>"PAPER"</h2>
+            <img src="/images/paper.png" alt="Rock Image" width="130px">
+        </div>
+        <div class="option">
+            <h2>"SCISSORS"</h2>
+            <img src="/images/scissors.png" alt="Rock Image" width="130px">
+        </div>
+
+    </div>
+    <!-- Final Section -->
+    <div class="game">
+        <div class="user-choice">
+            <label for="user">Your choice:</label>
+            <input id="user" type="text" placeholder="......">
+            <button id="play-btn">Play</button>
+        </div>
+
+        <div class="computer-choice">
+            <label>Computer choice:</label>
+            <span id="computer-choice">.....?</span>
+        </div>
+    </div>
+
+    <div class="result">
+        <h2 id="result-text"></h2>
+    </div>
+
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
